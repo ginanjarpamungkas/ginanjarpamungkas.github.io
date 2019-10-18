@@ -1,0 +1,84 @@
+body {
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    background-color: #dfdfdf;
+    background-image: linear-gradient(180deg,#dddbd1,#d2dbdc);
+    margin:0;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "body";
+}
+.header {width:100%;color: white;grid-area: header}
+
+.header h2{padding: 5px 5px;}
+
+ul.navbar {list-style: none;background-color: #1ebea5;padding:16px;margin:0;position: sticky;position: -webkit-sticky;top: 0;}
+ul.navbar li{display: inline;margin: 0 auto;}
+a{text-decoration: none;color: black;padding:16px;}
+a:hover{background-color: #eeeeee;}
+.active {background-color: #686868;}
+
+ul.body-content {
+    grid-area: header;
+    color: white;
+    height: 30%;
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(2 , auto);
+    font-size: 20px;
+}
+
+ul.body-content li {
+    padding: 2em;
+    background: #686868;
+}
+
+.foto img{
+    width: 50%;
+    border-radius: 50%
+}
+.nama {
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 15%;
+    color: #fff;
+}
+
+.nama h2{
+    font-size: 35px;
+    text-shadow: black 1px 2px;
+    line-height: 1;
+}
+
+.nama h5{
+    font-size: 20px;
+    text-shadow: black 1px 2px;
+    color: white;
+}
+.content{margin: 0.5em 20%;box-sizing: border-box; border: 0px solid #fff;line-height: 180%; text-align: justify;grid-area: body}
+.content p{padding: 0px}
+
+ul.sosmed {
+    display:grid;
+    list-style-type:none;
+    margin:0 20%;
+    padding:0;
+    grid-template-columns: repeat(4 , auto);
+    font-size: 20px;
+}
+
+ul.sosmed li{
+    padding: 16px;
+    margin: 10px;
+    background: #1ebea5;
+}
+
+ul.sosmed li:hover{
+    background: #686868;
+}
+
+table a{color:#1ebea5;padding: 0}
+table a:hover{background:none;color:#686868}
