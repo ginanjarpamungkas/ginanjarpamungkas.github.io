@@ -1,0 +1,88 @@
+/**********************************/
+/* 
+	COLOR-1.CSS
+	#e2b123 (Yellow);
+ */
+/**********************************/
+
+.heart-animation.one i{
+	color: #e2b123;
+}
+.heart-animation.two i{
+	color: #aaa609;
+}
+.heart-animation.three i{
+	color: #8f8c07;
+}
+.heart-animation.four i{
+	color: #626004;
+}
+.all-title span{
+	color: #e2b123;
+}
+.countDays:after{
+	color: #e2b123;
+}
+.countHours:after{
+	color: #e2b123;
+}
+.countMinutes:after{
+	color: #e2b123;
+}
+.countSeconds:after{
+	color: #e2b123;
+}
+span.swirl-right span{
+	color: #e2b123;
+}
+.title-under {
+	color: #e2b123;
+}
+.btn.btn-border-white:hover, .btn.btn-border-white:active, .btn.btn-border-white:focus, a.btn.btn-border-white:hover, a.btn.btn-border-white:active, a.btn.btn-border-white:focus {
+	background-color: #e2b123;
+	border: 1px solid #e2b123;
+}
+.single-happy .info-box-text ul li a i:hover{
+	border-color: #e2b123;
+}
+.single-happy-wrapp .single-happy-and{
+	color: #e2b123;
+}
+.section-gallery .fade-icon .icon {
+	background-color: #e2b123;
+}
+.switcher__color span a {
+    background: #e2b123;
+}
+.story-date {
+    background: #e2b123;
+}
+.story-line:after {
+    background: #e2b123;
+}
+.story-line:before {
+    background: #e2b123;
+}
+.story-line {
+    background: #e2b123;
+}
+.story-section .date:before {
+    background: #e2b123;
+}
+.story-section .offer:before {
+    background: #e2b123;
+}
+.story-section .time:before {
+    background: #e2b123;
+}
+.story-section .together:before {
+    background: #e2b123;
+}
+
+/**********************************/
+/* 
+	END
+	COLOR-1.CSS
+	#e2b123 (Yellow);
+ */
+/**********************************/
