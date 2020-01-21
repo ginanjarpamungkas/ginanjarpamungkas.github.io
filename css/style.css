@@ -364,7 +364,9 @@ span.swirl_right{
 	position:absolute;
 	width:100%;
 	height:100%;
-	display:block;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
 	z-index:666;
 	top:0px;
 	left:0px;
@@ -1954,5 +1956,5 @@ span.swirl_right_transparent{
 .loader {width: 100%;height: auto;position: fixed;top: 0; right: 0; left: 0; bottom: 0;margin: auto;z-index: 999999;background: #b5af47;display: flex;flex-direction: column;justify-content: center;align-items:center;}
 .loader .image {width: 100px;height: auto;font-size: 40px;text-align: center;color: #fff;}
 .loader span {display: block;width: 100%;text-align: center;position: absolute;color: #fff;padding-top: 50pt;}
-.chevron {margin-top: 3%;animation: movearrow 0.5s ease-out infinite alternate;}
+.chevron {margin-bottom: 60px;animation: movearrow 0.5s ease-out infinite alternate;}
 .fa-chevron-down {font-size: 20pt !important;color: #fff;}
