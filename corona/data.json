@@ -1,0 +1,26 @@
+[
+    {
+      "id": 41,
+      "country": "Cina",
+      "title": "Negara Penghasil Virus",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure totam sequi, iste rerum, ducimus velit adipisci beatae porro fuga quam, dolore sapiente laboriosam nostrum quidem minus cumque in veniam earum."
+    },
+    {
+      "id": 110,
+      "country": "Jepang",
+      "title": "Negara Tertular",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure totam sequi, iste rerum, ducimus velit adipisci beatae porro fuga quam, dolore sapiente laboriosam nostrum quidem minus cumque in veniam earum."
+    },
+    {
+      "id": 118,
+      "country": "Korea Selatan",
+      "title": "Ikutan Ketular",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure totam sequi, iste rerum, ducimus velit adipisci beatae porro fuga quam, dolore sapiente laboriosam nostrum quidem minus cumque in veniam earum."
+    },
+    {
+      "id": 190,
+      "country": "Singapura",
+      "title": "Dekat Indonesia",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure totam sequi, iste rerum, ducimus velit adipisci beatae porro fuga quam, dolore sapiente laboriosam nostrum quidem minus cumque in veniam earum."
+    }
+  ]
