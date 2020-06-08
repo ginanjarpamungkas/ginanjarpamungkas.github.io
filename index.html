@@ -50,7 +50,7 @@
                     </div>
                     <div class="archer" id="archer"></div>
                 </div>
-                <div class="resume-left">
+                <div class="resume-left" id="eduTrigger">
                     <div id="education" class="resume-title hide">
                         <h4>Education</h4>
                         <div class="resume-title-right"></div>
@@ -59,7 +59,7 @@
                         <h4>POLITEKNIK LP3I JAKARTA</h4>
                         <p>DIII MANAJEMEN INFORMATIKA</p>
                         <p>GPA 3,48/4,00</p>
-                        <p>2015 - 2018</p>
+                        <p id="workExpTrigger">2015 - 2018</p>
                     </div>
                     <div id="workExp" class="resume-title hide">
                         <h4>Work Experience</h4>
@@ -74,13 +74,17 @@
                             <li><p>Created web back-end user interfaces to new and existing databases utilizing PHP and MySQL.</p></li>
                             <li><p>Wrote a program in Laravel PHP framework that would query a database of stores which could then run bash or sql script programs against one, many, or all stores.</p></li>
                         </ul>
-                        <h4>SEVEN SKY STUDIO</h4>
-                        <p>PHP Freelancer</p>
-                        <p>2018 - Present</p>
-                        <ul>
-                            <li><p>Responsible for creating the navigation menu and submenu in the site using CSS, HTML, and PHP.</p></li>
-                            <li><p>Enhanced php programs written by previous developer employees reducing user time.</p></li>
-                        </ul>
+                        <span id="secondWorkExpTrigger"></span>
+                        <div id="secondWorkExp">
+                            <h4>SEVEN SKY STUDIO</h4>
+                            <p>PHP Freelancer</p>
+                            <p>2018 - Present</p>
+                            <ul>
+                                <li><p>Responsible for creating the navigation menu and submenu in the site using CSS, HTML, and PHP.</p></li>
+                                <li><p>Enhanced php programs written by previous developer employees reducing user time.</p></li>
+                            </ul>
+                        </div>
+                        <span id="skillTrigger"></span>
                     </div>
                     <div id="skill" class="resume-title hide">
                         <h4>Skills</h4>
@@ -93,7 +97,9 @@
                                     <li>
                                         <p class="title">Laravel</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                            <div style="width: 50%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>50%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -101,7 +107,9 @@
                                     <li>
                                         <p class="title">Jquery</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div style="width: 80%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><p>80%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -109,7 +117,9 @@
                                     <li>
                                         <p class="title">Ajax</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                                            <div style="width: 40%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><p>40%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -117,7 +127,9 @@
                                     <li>
                                         <p class="title">CSS</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                            <div style="width: 70%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>70%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -127,7 +139,9 @@
                                     <li>
                                         <p class="title">PHP</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                            <div style="width: 70%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>70%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -135,7 +149,9 @@
                                     <li>
                                         <p class="title">Javascript</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                                            <div style="width: 40%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><p>40%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -143,7 +159,9 @@
                                     <li>
                                         <p class="title">My SQL</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div style="width: 60%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><p>60%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -151,7 +169,9 @@
                                     <li>
                                         <p class="title">Photoshop CS6</p>
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                            <div style="width: 50%;height: 100%;">
+                                                <div class="progress-bar progress-bar-success progress-animation" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><p>50%</p></div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -161,24 +181,34 @@
                 </div>
                 <div id="footer" class="footer hide">
                     <div class="footerArcher" id="footerArcher"></div>
-                    <h4 id="onlinePort" class="hide">Online Portofolio</h4>
-                    <a class="hide link" href="https://interaktif.tempo.co">www.interaktif.tempo.co</a>
-                    <a class="hide link" href="http://haloapoteker.id">www.haloapoteker.id</a>
-                    <a class="hide link" href="http://iccp.or.id">www.iccp.or.id</a>
-                    <h4 id="contact" class="hide">Contact</h4>
-                    <p class="title hide">ADDRESS</p>
-                    <p class="line hide">Rt.01 Rw.01, Pasir Mukti, Citeureup, Bogor</p>
-                    <p class="title hide">FACEBOOK</p>
-                    <a href="https://web.facebook.com/gi.pamungkaz" class="line hide">Ginanjar Pamungkas</a>
-                    <p class="title hide">INSTAGRAM</p>
-                    <a href="https://www.instagram.com/gi_pamungkaz/" class="line hide">Gi_pamungkas</a>
-                    <p class="title hide">LINKEDIN</p>
-                    <a href="https://www.linkedin.com/in/ginanjar-pamungkas-7ab253176/" class="line hide">Ginanjar Pamungkas</a>
+                    <div id="firstFooter" class="hide">
+                        <h4 id="onlinePort" class="hide">Online Portofolio</h4>
+                        <a class="hide link" href="https://interaktif.tempo.co">www.interaktif.tempo.co</a>
+                        <a class="hide link" href="http://haloapoteker.id">www.haloapoteker.id</a>
+                        <a class="hide link" href="http://iccp.or.id">www.iccp.or.id</a>
+                    </div>
+                    <span id="secondFooterTrigger"></span>
+                    <div id="secondFooter" class="hide">
+                        <h4 id="contact" class="hide">Contact</h4>
+                        <p class="title hide">ADDRESS</p>
+                        <p class="line hide">Rt.01 Rw.01, Pasir Mukti, Citeureup, Bogor</p>
+                        <p class="title hide">FACEBOOK</p>
+                        <a href="https://web.facebook.com/gi.pamungkaz" class="line hide">Ginanjar Pamungkas</a>
+                    </div>
+                    <span id="thirdFooterTrigger"></span>
+                    <div id="thirdFooter" class="hide">
+                        <p class="title hide">INSTAGRAM</p>
+                        <a href="https://www.instagram.com/gi_pamungkaz/" class="line hide">Gi_pamungkas</a>
+                        <p class="title hide">LINKEDIN</p>
+                        <a href="https://www.linkedin.com/in/ginanjar-pamungkas-7ab253176/" class="line hide">Ginanjar Pamungkas</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="assets/js/jquery3.js"></script>
+    <script src="assets/js/ScrollMagic.min.js"></script>
+    <script src="assets/js/debug.addIndicators.js"></script>
     <script src="assets/js/logic.js"></script>
 </body>
 </html>
