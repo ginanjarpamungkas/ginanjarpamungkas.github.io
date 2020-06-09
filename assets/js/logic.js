@@ -35,7 +35,7 @@ scene1 = new ScrollMagic.Scene({triggerElement: "#eduTrigger"})
                                  .on("leave",(e)=>{
                                     $('#education, #eduText').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene2 = new ScrollMagic.Scene({triggerElement: "#workExpTrigger"})
                                  .triggerHook(0.9)
@@ -49,7 +49,7 @@ scene2 = new ScrollMagic.Scene({triggerElement: "#workExpTrigger"})
                                  .on("leave",(e)=>{
                                     $('#workExp, #workExpText').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene3 = new ScrollMagic.Scene({triggerElement: "#secondWorkExpTrigger"})
                                  .triggerHook(0.9)
@@ -64,7 +64,7 @@ scene3 = new ScrollMagic.Scene({triggerElement: "#secondWorkExpTrigger"})
                                  .on("leave",(e)=>{
                                     $('#secondWorkExp').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene4 = new ScrollMagic.Scene({triggerElement: "#skillTrigger"})
                                  .triggerHook(0.9)
@@ -79,7 +79,7 @@ scene4 = new ScrollMagic.Scene({triggerElement: "#skillTrigger"})
                                     $('#skill, #skillText').addClass('hide')
                                     $('.progress-bar').removeClass('progress-animation')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene5 = new ScrollMagic.Scene({triggerElement: "#footer"})
                                  .triggerHook(0.9)
@@ -92,7 +92,7 @@ scene5 = new ScrollMagic.Scene({triggerElement: "#footer"})
                                  .on("leave",(e)=>{
                                     $('#firstFooter').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene6 = new ScrollMagic.Scene({triggerElement: "#secondFooterTrigger"})
                                  .triggerHook(0.9)
@@ -105,7 +105,7 @@ scene6 = new ScrollMagic.Scene({triggerElement: "#secondFooterTrigger"})
                                  .on("leave",(e)=>{
                                     $('#secondFooter').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
 scene7 = new ScrollMagic.Scene({triggerElement: "#thirdFooterTrigger"})
                                  .triggerHook(0.9)
@@ -118,5 +118,5 @@ scene7 = new ScrollMagic.Scene({triggerElement: "#thirdFooterTrigger"})
                                  .on("leave",(e)=>{
                                     $('#thirdFooter').addClass('hide')
                                  })
-                                 .addIndicators({name: "1 (duration: 0)"})
+                                 //.addIndicators({name: "1 (duration: 0)"})
                                  .addTo(controller);
