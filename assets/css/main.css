@@ -18,7 +18,7 @@ p.title{color: #000;font-weight: bold;font-size: 20px;}
 
 .resume-body{background-color: #fff;padding-top: 20pt;display: flow-root;}
 .resume-left{float: left;background-color: #fff;max-width: 720px;width: 100%;box-sizing: border-box;margin-top: 50px;}
-.resume-title{background-color: #fd6766;padding: 5px;color: #fff;width: 85%;min-height:40px;position: relative;box-sizing: border-box;}
+.resume-title{background-color: #fd6766;padding: 5px;color: #fff;width: 85%;position: relative;min-height: 40px;box-sizing: border-box;}
 .resume-title-right{position: absolute;right: 0;top:0;width: 100px;height: 100%; background: #547a83;}
 .resume-title:after{content: '\A';width: 0px;height: 0px;border-top: 20px solid transparent;border-bottom: 20px solid transparent; border-left:15px solid #547a83;position: absolute;right: -15px;top: 0;}
 .resume-title h4{margin: 0;font-size: 25px;margin-left: 10px;margin-left: 50px;}
@@ -45,7 +45,9 @@ p.title{color: #000;font-weight: bold;font-size: 20px;}
 .footer{float: right;background-color: #547a83;padding: 20pt;width: 280px;height: fit-content;box-sizing: border-box;position: relative;margin-top: 50px}
 .footer:before{content: '\A';width: 0px;height: 0px;border-top: 30px solid transparent;border-right: 140px solid #547a83; border-left:140px solid #547a83;position: absolute;left: 0;top: -30px;}
 .footerArcher{content: '\A';width: 0px;height: 0px;border-top: 30px solid transparent;border-right: 140px solid #547a83; border-left:140px solid #547a83;position: absolute;left: 0;top: -30px;display: none;}
-.footer h4{background-color: #fd6766;color: #fff;padding: 6px 10px;text-align: center;font-size: 20px;}
+.footer h4{background-color: #fd6766;color: #fff;padding: 6px 10px;text-align: center;font-size: 20px;min-height: 40px;position: relative;box-sizing: border-box;}
+.footer h4:before{content: '\A';width: 0px;height: 0px;border-top: 20px solid transparent;border-bottom: 20px solid transparent; border-right:8px solid #fd6766;position: absolute;left: -8px;top: 0;}
+.footer h4:after{content: '\A';width: 0px;height: 0px;border-top: 20px solid transparent;border-bottom: 20px solid transparent; border-left:8px solid #fd6766;position: absolute;right: -8px;top: 0;}
 .footer a{text-decoration: none;cursor: pointer;color: #fff;display: block;margin:10px auto;text-align: center;font-weight: bold;}
 .footer a:hover{color: #fd6766;}
 .footer p.title{color: #fff;text-align: center;}
