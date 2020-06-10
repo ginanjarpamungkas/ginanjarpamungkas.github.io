@@ -18,7 +18,7 @@ p.title{color: #000;font-weight: bold;font-size: 20px;}
 
 .resume-body{background-color: #fff;padding-top: 20pt;display: flow-root;}
 .resume-left{float: left;background-color: #fff;max-width: 720px;width: 100%;box-sizing: border-box;margin-top: 50px;}
-.resume-title{background-color: #fd6766;padding: 5px;color: #fff;width: 85%;position: relative;}
+.resume-title{background-color: #fd6766;padding: 5px;color: #fff;width: 85%;min-height:40px;position: relative;box-sizing: border-box;}
 .resume-title-right{position: absolute;right: 0;top:0;width: 100px;height: 100%; background: #547a83;}
 .resume-title:after{content: '\A';width: 0px;height: 0px;border-top: 20px solid transparent;border-bottom: 20px solid transparent; border-left:15px solid #547a83;position: absolute;right: -15px;top: 0;}
 .resume-title h4{margin: 0;font-size: 25px;margin-left: 10px;margin-left: 50px;}
